@@ -4,7 +4,7 @@ which xclip > /dev/null
 status="$?"
 
 if [ $status -eq 0 ]
-  then
+then
 
   echo "Escriba su frase o palabra clave. El hash se copiará al portapapeles."
   echo -n "¿Clave? > "
